@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace BinarySearchTree
 {
-    class WhiteBoard
+    class BST
     {
+        Node root;
 
+        public BST(int rootNum)
+        {
+            root = new Node();
+            root.Value = rootNum;
+        }
+        public void Add(int num)
+        {
+
+        }
     }
 }
